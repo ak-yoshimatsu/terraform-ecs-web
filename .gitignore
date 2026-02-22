@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# 機密情報
+*.tfvars
+!terraform.tfvars.example
+
+# OS
+.DS_Store
